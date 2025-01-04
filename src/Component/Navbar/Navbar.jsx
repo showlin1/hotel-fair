@@ -18,11 +18,11 @@ const Navbar = () => {
         <NavLink style={styleNav} to={'/'}>
             <li className="px-5 py-2">Home</li>
         </NavLink>
-        <NavLink style={styleNav} to={'/allRooms'}>
+        <NavLink style={styleNav} to={'/rooms'}>
             <li className="px-5 py-2">Rooms</li>
         </NavLink>
         {
-            user && <NavLink style={styleNav} to={'/myRooms'}>
+            user && <NavLink style={styleNav} to={'/myBookings'}>
                 <li className="px-5 py-2">My Booking</li>
             </NavLink>
         }
