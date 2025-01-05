@@ -11,7 +11,7 @@ const Navbar = () => {
     const styleNav = ({ isActive }) => {
         return {
             fontWeight: isActive ? "bold" : "",
-            color: isActive ? "#4D869C" : "",
+            color: isActive ? "#ef4444" : "",
         };
     }
     const navLinks = <>
@@ -21,11 +21,9 @@ const Navbar = () => {
         <NavLink style={styleNav} to={'/rooms'}>
             <li className="px-5 py-2">Rooms</li>
         </NavLink>
-        {
-            user && <NavLink style={styleNav} to={'/myBookings'}>
-                <li className="px-5 py-2">My Booking</li>
-            </NavLink>
-        }
+        <NavLink style={styleNav} to={'/myBookings'}>
+            <li className="px-5 py-2">My Booking</li>
+        </NavLink>
         <NavLink to={'/about'} style={styleNav}>
             <li className="px-5 py-2">About Us</li>
         </NavLink>
@@ -35,7 +33,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="bg-back border-b-2 fixed z-10 left-0 right-0">
+        <div className="bg-back bg-rose-100 border-b-2 fixed z-10 left-0 right-0">
             <div className="navbar container mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -46,7 +44,11 @@ const Navbar = () => {
                             {navLinks}
                         </ul>
                     </div>
-                    <Link to={'/'} className="text-2xl text-primary font-black cursor-pointer hover:text-cyan-600">Hotel.Fair</Link>
+                    <Link to='/'
+                        className=" flex text-2xl text-rose-500 text-center font-black cursor-pointer ">
+                        <img width='30' height='50' src="https://i.ibb.co.com/0V532pX/hotel.png" alt="" />
+                        Hotel.Fair
+                    </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-lg">
@@ -69,12 +71,12 @@ const Navbar = () => {
                                     <span>
                                         <h1 className="text-xl">{user?.email}</h1>
                                     </span>
-                                    <button onClick={handleLogOut} className="px-8 py-3 bg-primary hover:bg-cyan-600 text-white font-medium rounded">Log Out</button>
+                                    <button onClick={handleLogOut} className="px-8 py-3 bg-rose-400 hover:bg-rose-500 text-white font-medium rounded">Log Out</button>
                                 </ul>
                             </div>
 
                             :
-                            <Link to={'/login'} className="px-8 py-3 bg-primary hover:bg-cyan-600 text-white font-medium rounded">Login</Link>
+                            <Link to={'/login'} className="px-8 py-3 bg-rose-500  text-white font-medium rounded">Login</Link>
                     }
 
                 </div>
