@@ -24,10 +24,10 @@ const Navbar = () => {
         <NavLink style={styleNav} to={'/myBookings'}>
             <li className="px-5 py-2">My Booking</li>
         </NavLink>
-        <NavLink to={'/about'} style={styleNav}>
+        <NavLink to={'/aboutUs'} style={styleNav}>
             <li className="px-5 py-2">About Us</li>
         </NavLink>
-        <NavLink to={'contact'} style={styleNav}>
+        <NavLink to={'contactUs'} style={styleNav}>
             <li className="px-5 py-2">Contact Us</li>
         </NavLink>
     </>

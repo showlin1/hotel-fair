@@ -1,4 +1,6 @@
-
+import cover from '../../../assets/contactinfo.jpg'
+import family1 from '../../../assets/family1.jpg'
+import family2 from '../../../assets/family2.jpg'
 import { FaBuilding } from 'react-icons/fa';
 import { MdDiscount } from 'react-icons/md';
 
