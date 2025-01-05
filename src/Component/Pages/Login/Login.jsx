@@ -55,7 +55,6 @@ const Login = () => {
                 </div>
             </form>
             <p className="text-center mt-4 mb-8">Do not have an account <Link to='/signUp' className="text-rose-400 hover:text-rose-500 font-bold">Sign Up</Link></p>
-            
         </div>
     );
 };
