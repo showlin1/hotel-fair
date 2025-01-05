@@ -1,4 +1,4 @@
-import Home from "../Home/Home";
+import Home from "../Pages/Home/Home";
 import Root from "../Layout/Root";
 import {
     createBrowserRouter,
