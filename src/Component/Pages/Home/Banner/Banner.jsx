@@ -3,10 +3,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import slide1 from "../../../../assets/slider1.jpg"
-import slide2 from "../../../../assets/slider2.jpg"
+import slide1 from "../../../../assets/Mountain-View-Deluxe.jpg"
+import slide2 from "../../../../assets/queenroom.jpeg"
 import slide3 from "../../../../assets/slider3.jpg"
-import slide4 from "../../../../assets/slider4.jpg"
+import slide4 from "../../../../assets/simpleroom.jpg"
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
@@ -41,7 +41,7 @@ const Banner = () => {
                         <div data-aos="fade-right" data-aos-duration="3000" className="max-w-md ">
                                 <h1 className="text-5xl font-bold text-white pb-5">Welcome Hotel.Fair</h1>
                                 <p className="mb-5 text-xl">Experience the pinnacle of hospitality at our hotel fair, where every moment is crafted to perfection, ensuring memories that last a lifetime.</p>
-                                <Link to={'/rooms'}><button className="px-8 py-3 rounded-full font-bold bg-rose-500 hover:bg-rose-600 text-xl">Book Now</button></Link>
+                                <Link to={'/rooms'}><button className="px-8 py-3 rounded-xl font-bold bg-rose-400 hover:bg-rose-500 text-xl">Book Now</button></Link>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const Banner = () => {
                         <div data-aos="fade-right" data-aos-duration="3000" className="max-w-md ">
                                 <h1 className="text-5xl font-bold text-white pb-5">Welcome Hotel.Fair</h1>
                                 <p className="mb-5 text-xl">Experience the pinnacle of hospitality at our hotel fair, where every moment is crafted to perfection, ensuring memories that last a lifetime.</p>
-                                <Link to={'/rooms'}><button className="px-8 py-3 rounded-full font-bold bg-rose-500 hover:bg-rose-600 text-xl">Book Now</button></Link>
+                                <Link to={'/rooms'}><button className="px-8 py-3 rounded-xl font-bold bg-rose-400 hover:bg-rose-500 text-xl">Book Now</button></Link>
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ const Banner = () => {
                         <div data-aos="fade-right" data-aos-duration="3000" className="max-w-md ">
                                 <h1 className="text-5xl font-bold text-white pb-5">Welcome Hotel.Fair</h1>
                                 <p className="mb-5 text-xl">Experience the pinnacle of hospitality at our hotel fair, where every moment is crafted to perfection, ensuring memories that last a lifetime.</p>
-                                <Link to={'/rooms'}><button className="px-8 py-3 rounded-full font-bold bg-rose-500 hover:bg-rose-600 text-xl">Book Now</button></Link>
+                                <Link to={'/rooms'}><button className="px-8 py-3 rounded-xl font-bold bg-rose-400 hover:bg-rose-500 text-xl">Book Now</button></Link>
                             </div>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ const Banner = () => {
                         <div data-aos="fade-right" data-aos-duration="3000" className="max-w-md ">
                                 <h1 className="text-5xl font-bold text-white pb-5">Welcome Hotel.Fair</h1>
                                 <p className="mb-5 text-xl">Experience the pinnacle of hospitality at our hotel fair, where every moment is crafted to perfection, ensuring memories that last a lifetime.</p>
-                                <Link to={'/rooms'}><button className="px-8 py-3 rounded-full font-bold bg-rose-500 hover:bg-rose-600 text-xl">Book Now</button></Link>
+                                <Link to={'/rooms'}><button className="px-8 py-3 rounded-xl font-bold bg-rose-400 hover:bg-rose-500 text-xl">Book Now</button></Link>
                             </div>
                         </div>
                     </div>

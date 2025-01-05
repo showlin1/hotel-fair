@@ -4,6 +4,7 @@ import family1 from '../../../assets/family1.jpg'
 import family2 from '../../../assets/family2.jpg'
 import { FaBuilding } from 'react-icons/fa';
 import { MdDiscount } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 const AboutUs = () => {
     return (
@@ -15,7 +16,7 @@ const AboutUs = () => {
                 </div>
             </div>
             <section>
-                <div className='flex justify-between gap-5 py-16'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 py-16'>
                     <div>
                         <h1 className='text-3xl font-bold mb-4'>---OUR HISTORY</h1>
                         <p className='mb-4'>Welcome to Hotel Fair, where comfort meets luxury in the heart of City.
@@ -62,7 +63,9 @@ const AboutUs = () => {
                         <h1 className='text-6xl font-bold text-rose-500'>Unwind A Hotel Booking Agency</h1>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                        <button className='border-2 border-rose-500 text-rose-500 hover:bg-rose-500 duration-300 transition hover:text-white text-xl font-bold px-6 py-3'>View Our Rooms</button>
+                        <Link to='/rooms'>
+                            <button className='border-2 border-rose-500 text-rose-500 hover:bg-rose-500 duration-300 transition hover:text-white text-xl font-bold px-6 py-3'>View Our Rooms</button>
+                        </Link>
                     </div>
                 </div>
             </section>

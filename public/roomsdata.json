@@ -1,0 +1,111 @@
+[
+    {
+        "_id": "101",
+        "description": "A cozy single room perfect for solo travelers, featuring modern amenities and a comfortable bed.",
+        "availability": "Yes",
+        "room_images": "https://i.ibb.co.com/Ykc48Q4/singleroom.jpg",
+        "price_per_night": 350,
+        "room_size": "200 sq ft",
+        "special_offers": "Book 3 nights and get 10% off"
+      },
+      {
+        "_id": "102",
+        "description": "Spacious double room with a queen-sized bed, ideal for couples seeking a relaxing stay.",
+        "availability": "NO",
+        "room_images": "https://i.ibb.co.com/3hPJMyT/serene-log-cabin-forested.webp",
+        "price_per_night": 480,
+        "room_size": "300 sq ft",
+        "special_offers": "Stay 5 nights and get a complimentary breakfast"
+      },
+      {
+        "_id": "103",
+        "description": "A deluxe suite with a separate living area, stunning city views, and premium amenities.",
+        "availability": "Yes",
+        "room_images": "https://i.ibb.co.com/JFsQ27Y/Mountain-View-Deluxe.jpg",
+        "price_per_night": 350,
+        "room_size": "500 sq ft",
+        "special_offers": "Free spa access for bookings over 2 nights"
+      },
+      {
+        "_id": "104",
+        "description": "Modern studio apartment with a kitchenette, perfect for extended stays.",
+        "availability": "Yes",
+        "room_images": "https://i.ibb.co.com/D1vSH1k/modern-studio.jpg",
+        "price_per_night": 290,
+        "room_size": "400 sq ft",
+        "special_offers": "10% discount on stays of 7 or more nights"
+      },      
+      {
+        "_id": "105",
+        "description": "Luxurious penthouse with panoramic views and a private terrace.",
+        "availability": "Yes",
+        "room_images": "https://i.ibb.co.com/KLnJZNq/luxury-penthouse.webp",
+        "price_per_night": 300,
+        "room_size": "1200 sq ft",
+        "special_offers": "Champagne and fruit platter on arrival"
+      },
+      {
+        "_id": "106",
+        "description": "Elegant twin room with two comfortable beds, ideal for friends or colleagues.",
+        "availability": "Yes",
+        "room_images": "https://i.ibb.co.com/nsbQkFc/two-twin-beds.webp",
+        "price_per_night": 270,
+        "room_size": "250 sq ft",
+        "special_offers": "10% off for weekend stays"
+      },            
+      {
+        "_id": "107",
+        "description": "Family suite with two bedrooms, a living room, and child-friendly amenities.",
+        "availability": "Yes",
+        "room_images":"https://i.ibb.co.com/tqKwGXN/simpleroom.jpg",
+        "price_per_night": 200,
+        "room_size": "800 sq ft",
+        "special_offers": "Kids stay free under 12"
+      },
+      {
+        "_id": "108",
+        "description": "Premium king room with a luxurious bed and a spacious bathroom.",
+        "availability": "No",
+        "room_images": "https://i.ibb.co.com/xSR3Lft/king-bed.webp",
+        "price_per_night": 320,
+        "room_size": "350 sq ft",
+        "special_offers": "Late checkout included for stays over 3 nights"
+      },
+      {
+        "_id": "109",
+        "description": "Rustic cabin with a fireplace, surrounded by tranquil natural beauty.",
+        "availability": "Yes",
+        "room_images": "https://i.ibb.co.com/QcwBjwf/queenroom.jpg",
+        "price_per_night": 490,
+        "room_size": "450 sq ft",
+        "special_offers": "Complimentary hiking guide for weekend bookings"
+      },
+      {
+        "_id": "110",
+        "description": "Beachfront villa with private pool and direct access to the beach.",
+        "availability": "No",
+        "room_images": "https://i.ibb.co.com/kHc6Jh3/golden-beach.jpg",
+        "price_per_night": 400,
+        "room_size": "1500 sq ft",
+        "special_offers": "Free sunset dinner for stays over 2 nights"
+      },
+      {
+        "_id": "111",
+        "description": "Charming attic room with a vintage touch, perfect for a quiet retreat.",
+        "availability": "Yes",
+        "room_images": "https://i.ibb.co.com/Fwjzz3C/small-Attic.jpg",
+        "price_per_night": 200,
+        "room_size": "220 sq ft",
+        "special_offers": "15% discount for early bookings"
+      },                              
+      {
+        "_id": "112",
+        "description": "Executive suite with state-of-the-art facilities, ideal for business travelers.",
+        "availability": "Yes",
+        "room_images": "https://i.ibb.co.com/3hPJMyT/serene-log-cabin-forested.webp",
+        "price_per_night": 250,
+        "room_size": "600 sq ft",
+        "special_offers": "Complimentary airport transfers for bookings over 3 nights"
+      }
+      
+]
