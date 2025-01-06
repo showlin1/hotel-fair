@@ -2,4 +2,6 @@
 
 
 ##If you open the hotel.fair website, one page application will open. Then there are 5 routes, if you go to each route, single page will open. You can also signup and login here.
+
+
 Live link:https://hotel-fair-website.netlify.app
