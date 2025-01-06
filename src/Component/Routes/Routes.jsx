@@ -9,6 +9,7 @@ import SignUp from "../Pages/SignUp/SignUp";
 import AboutUs from "../Pages/AboutUs/AboutUs";
 import ContactUs from "../Pages/ContactUs/ContactUs";
 import AllRooms from "../Pages/AllRooms/AllRooms";
+import MyBooking from "../Pages/MyBooking/MyBooking";
 
 
 const router = createBrowserRouter([
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
             {
                 path:'/rooms',
                 element:<AllRooms></AllRooms>
+            },
+            {
+                path:'/myBookings',
+                element:<MyBooking></MyBooking>
             },
             {
                 path:'/login',
